@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>lxw first JS demo</title>
+		<meta name="description" content="">
+		<style type="text/css" media="screen">
+			.container{position:absolute; top:0px; left:0px; right:0px; bottom:0px; background:#358ccc;}
+		</style>
+	</head>
+	<body>
+		<!-- <div class="container"></div>-->
+		<script type="text/javascript" charset="utf-8">
+			//alert("lxw first JS Demo")
+			var s = "hello" + " world!";
+			s.replace("h", "H");
+			console.log(s);
+			console.log(s.replace("h", "H"));
+			s.toUpperCase();
+			console.log(s);
+			console.log(s.toUpperCase());
+
+			/*
+			hello world!	demo1.html:17
+			Hello world!	demo1.html:18
+			hello world!	demo1.html:20
+			HELLO WORLD!	demo1.html:21
+			*/
+
+			// Define a function
+			// Method 1: define a function.
+			function funcName1(para1, para2){
+				var p = p1 + p2;
+				return 1;
+			}
+
+			// Method 2: define a function.
+			var funcName2 = new Function("para1", "para2", "function body")
+
+			// Method 3: define a function.
+			var funcName3 = function(p1, p2){
+				//function body
+			};
+
+			// Statements
+			if (1 == 1){
+				;//
+			}
+			else{
+				while(1){
+					for (var i = Things.length - 1; i >= 0; i--) {
+						Things[i] += 1;
+					}
+					for( element in array)
+						switch(element){
+							case 1:
+								1;
+								break;
+							case 2:
+								2;
+								break;
+							default:
+								3;
+						}
+				}
+			}
+
+		</script>
+	</body>
+</html>
